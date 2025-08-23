@@ -1,6 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
+  justify-content: center;
   align-items: center;
   padding: 96px 50px 92px;
   background-color: #fff;
@@ -9,6 +10,7 @@
 .header__links-list {
   display: flex;
   gap: 32px;
+  margin-bottom: 3px;
   font-weight: normal;
   font-size: 18px;
   list-style: circle;
@@ -21,6 +23,7 @@
 .header__logo {
   display: block;
   width: 148px;
+  padding: 1px 6px;
 }
 
 .address {
@@ -177,7 +180,7 @@
 }
 
 .card__title {
-  z-index: 1;
+  z-index: 3;
   font-size: 22px;
   line-height: 1.2;
   text-decoration: underline;
@@ -185,7 +188,7 @@
 }
 
 .card__text {
-  z-index: 1;
+  z-index: 3;
   font-size: 20px;
   line-height: 1.2;
 }
